@@ -1,3 +1,3 @@
 class SuperPower < ApplicationRecord
-  belongs_to :super_hero
+  has_many :super_hero
 end
